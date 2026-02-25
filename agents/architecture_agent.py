@@ -4,6 +4,7 @@ import os
 import re
 from tools import mcp_client
 
+# ArchitectureAgent class to generate architecture diagrams
 class ArchitectureAgent:
     def __init__(self, workdir):
         self.workdir = workdir
