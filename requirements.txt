@@ -1,0 +1,17 @@
+gradio
+pydantic
+pandas
+markdown
+pyyaml
+requests
+diagrams
+pypdf
+python-docx
+openai
+anthropic
+google-generativeai
+openpyxl
+pypdf
+python-docx
+mcp
+anyio
