@@ -69,13 +69,9 @@ $env:DOC_CONTEXT_TOTAL_CHARS = "6000"
 ```
 
 ## Typical Prompts
+Reference: https://aws.amazon.com/vi/blogs/machine-learning/build-aws-architecture-diagrams-using-amazon-q-cli-and-mcp/
+- "Please create a diagram showing an EC2 instance in a VPC connecting to an external S3 bucket. Include essential networking components (VPC, subnets, Internet Gateway, Route Table), security elements (Security Groups, NACLs), and clearly mark the connection between EC2 and S3. Label everything appropriately concisely and indicate that all resources are in the us-east-1 region. Check for AWS documentation to ensure it adheres to AWS best practices before you create the diagram."
 
-- AWS 3‑tier:
-  Describe “Route53 → CloudFront → API Gateway → Lambda → DynamoDB; VPC with 2 AZs; CloudWatch logs; produce PNG and attach AWS best-practices for API Gateway/Lambda/DynamoDB.”
-- GCP:
-  “Cloud Load Balancing → GKE → Cloud SQL; Cloud Storage for static; Pub/Sub for async; multi‑zone HA.”
-- Azure (diagrams fallback):
-  “Front Door → App Services → SQL Databases; include VNet, NSG, monitoring.”
 
 ## Troubleshooting
 
